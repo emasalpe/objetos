@@ -1,3 +1,31 @@
+// En JavaScript, una función es un bloque de código diseñado para realizar una tarea específica o devolver un valor. 
+
+// Las funciones permiten agrupar un conjunto de instrucciones que se pueden reutilizar en diferentes partes del programa. 
+
+// Además, pueden aceptar parámetros para personalizar su comportamiento y devolver un valor cuando se ejecutan.
+
+// Partes de una función en JavaScript:
+
+// Declaración: Se define la función con la palabra clave function, seguida de un nombre, parámetros opcionales entre paréntesis, y el bloque de código entre llaves {}.
+
+// Parámetros: Son variables que se pasan a la función y permiten que ésta opere con valores externos. Se colocan entre paréntesis tras el nombre de la función.
+
+// Bloque de código: Es el conjunto de instrucciones que se ejecutan cuando se llama a la función.
+
+// Return: La palabra clave return puede usarse dentro de la función para devolver un valor. Si no se especifica return, la función devuelve undefined por defecto.
+
+//  EJEMPLO BASICO
+
+// Declaración de la función
+function saludar(nombre) {
+    return "Hola, " + nombre + "!";
+  }
+  
+  // Llamada a la función
+  console.log(saludar("Juan")); // Resultado: "Hola, Juan!"
+
+// La función anterior se llama saludar. Acepta un parámetro llamado nombre. Devuelve un saludo personalizado.
+  
 // Estructura de una funcion
 
 function nombreDeLaFuncion(parámetros) {
