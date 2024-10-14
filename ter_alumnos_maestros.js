@@ -13,12 +13,12 @@ const maestros = [maestro1, maestro2]; // Array que contiene todos los objetos d
 
 // Ordenar alumnos por su promedio, de mayor a menor
 alumnos.sort((a, b) => b.promedio - a.promedio); 
-// sort() es una función que ordena arrays. En este caso, ordena los alumnos por promedio de mayor a menor.
-// La función recibe dos parámetros, a y b, que son los objetos que se comparan. Si a.promedio es mayor que b.promedio, devuelve un número positivo.
-// Si a.promedio es menor que b.promedio, devuelve un número negativo
-// Si a.promedio es igual a b.promedio, devuelve 0.
-// Por lo tanto, si a.promedio es mayor que b.promedio, a se coloca después de b en el array, y si a.promedio es menor que b.promedio, a se coloca antes de b en el array.
-// Por lo tanto, el array se ordena de mayor a menor por promedio.
+// Este método se utiliza para ordenar los elementos de un array in-place (modifica el array original) y devuelve el array ordenado. Los parámetros a y b son dos objetos (en este caso, objetos de tipo alumno) que se están comparando entre sí.
+
+// b.promedio - a.promedio: Esto indica que estamos ordenando de mayor a menor.
+// Si el promedio de b es mayor que el promedio de a, el resultado será un número positivo, lo que significa que b debe aparecer antes que a.
+// Si el promedio de b es menor que el promedio de a, el resultado será un número negativo, y a aparecerá antes que b.
+// Si son iguales, se devolverá 0, y su orden relativo no cambiará.
 
 // Mostrar un solo alumno, el primero del array (con mejor promedio)
 console.log("Alumno con mejor promedio:");
