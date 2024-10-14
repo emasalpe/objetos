@@ -6,14 +6,14 @@ const alumno1 = {
                     promedio: 8.5 
                 };
 
-                const alumno2 = {
+const alumno2 = {
                     nombre: "Pedro",
                     edad: 16,
                     grado: "11",
                     promedio: 9.0
                 };
 
-                const alumno3 = {
+const alumno3 = {
                     nombre: "Ana",
                     edad: 17,
                     grado: "12",
